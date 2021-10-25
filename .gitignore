@@ -1,1 +1,22 @@
+# autoenv stuff.
+.env
+
+# Stuff makefile generates.
+bin
+vendor
+rootfs/alpine/opt
+rootfs/ubuntu/opt
+
+# Dirs default config creates if not existed.
+logs
+data
+
+# MacOS stuff.
 .DS_Store
+
+# GoLand IDE
+.idea/
+
+# vscode
+.vscode/
+
